@@ -1,0 +1,47 @@
+# Given a list of rectangles in a 2-D cartesian coordinate system whose sides are parallel to the coordinate axes. A rectangle can be overlapping with the other rectangle or it can be isolated too. The overlapping rectangles shall be replaced by another rectangle which contains both the previous rectangles and has a minimum area possible. For example, look at the below case:
+
+# Given two overlapping rectangles A and B (in solid lines on left) which shall be replaced by a bigger rectangle P(on the right) that contains both of them.
+
+# Given the list of rectangles, this process will continue until all the overlapping rectangles are resolved. Calculate the sum of areas of rectangle(s) after resolving them.
+
+# Note:
+
+# Two rectangles are considered as overlapping if the area of intersection between them is non zero.
+
+# Input format:
+
+# Input will contain 2 lines; each of which will have 4 space-separated integers, representing x and y coordinate of the bottom-left corner and the top-right corner of the rectangle respectively (Ex: x1, y1, x2, y2)
+
+
+# Output format:
+
+# Print all the resolved rectangles.
+
+# input:
+# BL BL TR TR
+#  X  Y  X  Y 
+
+#  0  0  4  4   
+#  2  2  4  4
+#  7  7 10 10
+# 12 12 14 14 
+#  3  3  5  5 
+
+
+# output:
+#  0  0  5  5
+#  7  7 10 10
+# 12 12 14 14 
+
+
+  # [0, 4, 1, 6],
+  # [1, 3, 2, 5],
+  # [2, 2, 3, 4],
+  # [3, 1, 5, 3],
+  # [0, 0, 4, 2],
+    
+# 0,0,5,5
+# 2,10,7,12
+# 6,14,11,19
+# 8,6,18,16
+# 9,11, 20, 25
