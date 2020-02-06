@@ -60,7 +60,6 @@ def rect_overlap(rect1, rect2):
     
     return overlap, merged_rect
 
-
 def merge_rectangles(rect_arr):
     
     final_arr = [] #initialize a final array to be returned
@@ -91,7 +90,6 @@ def merge_rectangles(rect_arr):
                 final_arr.append(i)
         
     return final_arr
-
 
 def main(rect_arr):
     

@@ -1,0 +1,12 @@
+# A circular linked list
+# 1 -> 2 -> 10 ->
+# 1 -> 2 -> 7 -> 10 -> 
+# only next pointers
+# can assume list is already sorted 
+# There is no concept of a head pointer
+#
+# insert(n, val_to_insert)
+#
+# insert val_to_insert and make sure the list remains sorted
+#
+# n - a pointer somewhere into the list, you dont necessarily know where
