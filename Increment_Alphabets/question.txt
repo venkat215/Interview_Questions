@@ -1,0 +1,7 @@
+I did not receive this question in any of my interviews. Just made up my own question.
+
+Incrememnt alphabets like Excel Columns:
+
+i.e.
+
+a,b,c,d.....z,aa,ab,ac...az,ba,...bz,.....aaa,aaz.....
